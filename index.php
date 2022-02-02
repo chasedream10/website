@@ -17,8 +17,8 @@ exit;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<meta content="en" http-equiv="content-language">
- <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-		<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+ <meta name="">
+		<!-- <meta name="apple-mobile-web-app-capable" content="no"> -->
 	   
 	<meta name="viewport" content="">
 	
