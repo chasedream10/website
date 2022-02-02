@@ -16,7 +16,7 @@ exit;
 	
 		
 	  <meta charset="utf-8">
- 
+ <meta name="viewport" content="width=SITE_MIN_WIDTH, initial-scale=1, maximum-scale=1">
 		<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
 	   
 	
