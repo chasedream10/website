@@ -131,6 +131,139 @@ exit;
 
 					<div class="RUIFW-row row">
 						<div class="RUIFW-col-12 col-sm-12">
+						
+						
+
+
+            <style>
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media (min-width: 700px){
+.cntainer {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.col-23 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+}
+}
+@media (max-width: 699px){
+.cntainer {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.col-23 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+}
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-23 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 40%;
+  margin-top: 3px;
+}
+
+/* Clear floats after the columns */
+.rew:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btton {
+    background-color: #D81E05;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+						
 
 						</div>
 					</div></div>
