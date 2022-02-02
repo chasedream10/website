@@ -13,7 +13,15 @@ exit;
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" style="" class="RUIFW-ready desktop"><head id="j_idt3"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Scotia OnLine</title>
 	
-
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+	   
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
 	    
 <link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-theme.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-datepicker.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/font-awesome.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/B2ELab-RUIFW.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/B2ELab-RUIFW-static.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-slider.css" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://localhost:8080/signon15/retail/B2E_RUIFW_src/core/css/B2ELab-RUIFW-IE-Only.css" /><![endif]-->
     
@@ -124,7 +132,6 @@ exit;
 					<div class="RUIFW-row row">
 						<div class="RUIFW-col-12 col-sm-12">
 						
-
 
 						</div>
 					</div></div>
