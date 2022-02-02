@@ -22,10 +22,7 @@ exit;
 	
 	
 	    
-<link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-theme.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-datepicker.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/font-awesome.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/B2ELab-RUIFW.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/B2ELab-RUIFW-static.css" rel="stylesheet" type="text/css"><link href="http://localhost:8080/phpSite/scotis/./Scotia OnLine_files/bootstrap-slider.css" rel="stylesheet" type="text/css"><!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://localhost:8080/signon15/retail/B2E_RUIFW_src/core/css/B2ELab-RUIFW-IE-Only.css" /><![endif]-->
-    
-    
-
+ 
     
    
     <link href="http://onlinescotiajam.myftp.org/images/favicon.ico" rel="shortcut icon">
