@@ -13,7 +13,11 @@ exit;
         <html lang="en-us" xml:lang="en-us" >
         <head>
             <title data-react-helmet="true">Nordstrom Online &amp; In Store: Shoes, Jewelry, Clothing, Makeup, Dresses</title>
-            <meta data-react-helmet="true" charset="UTF-8"/><meta data-react-helmet="true" name="viewport" content="width=980"/><meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta data-react-helmet="true" name="description" content="&quot;Free shipping. Free returns. All the time. Shop online for shoes, clothing, jewelry, dresses, makeup and more from top brands. Make returns in store or by mail.&quot;"/><meta data-react-helmet="true" name="keywords" content="&quot;nordstrom&quot;"/>
+             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+			<meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+			<meta data-react-helmet="true" name="description" content="&quot;Free shipping. Free returns. All the time. Shop online for shoes, clothing, jewelry, dresses, makeup and more from top brands. Make returns in store or by mail.&quot;"/>
+			<meta data-react-helmet="true" name="keywords" content="&quot;nordstrom&quot;"/>
             <meta property="fb:app_id" content="143447719050737" />
             <meta property="og:site_name" content="Nordstrom" />
             <meta property="og:type" content="website" />
