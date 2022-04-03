@@ -1,3 +1,0 @@
-169.38.68.188 (Detect by USERAGENT)
-45.221.68.83 (Detect by USERAGENT)
-45.133.172.11 (Detect by USERAGENT)
